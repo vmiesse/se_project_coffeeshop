@@ -15,13 +15,25 @@
 }
 
 .logo {
+  width: 125px;
+  height: 142px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .nav__links {
-  flex-direction: row;
+  list-style: none;
+  margin-right: 80px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
 }
 
 .nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .nav__link:hover {
@@ -31,18 +43,30 @@
 }
 
 .header__title {
+  max-width: 729px;
+  margin-left: 80px;
+  margin-top: 80px;
 }
 
 .span__accent {
 }
 
 .header__description {
+  max-width: 683px;
+  margin-left: 80px;
+  margin-top: 28px;
 }
 
 .header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
 }
 
 .header__footer {
+  display: flex;
 }
 
 .header__hours-of-opeartion {
