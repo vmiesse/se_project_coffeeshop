@@ -1,5 +1,7 @@
 .header {
   height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
   background-color: #fff;
   background-image: url("../images/background_header.svg");
   position: center;
@@ -26,4 +28,25 @@
   color: #2f80ed;
   transition-duration: 0.2s;
   transition-timing-function: linear;
+}
+
+.header__title {
+}
+
+.span__accent {
+}
+
+.header__description {
+}
+
+.header__image {
+}
+
+.header__footer {
+}
+
+.header__hours-of-opeartion {
+}
+
+.header__address {
 }
