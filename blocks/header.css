@@ -4,14 +4,14 @@
   max-height: 800px;
   background-color: #fff;
   background-image: url("../images/background_header.svg");
+
   position: center;
-  size: cover;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo {
@@ -19,18 +19,25 @@
   height: 142px;
   margin-left: 30px;
   margin-top: 30px;
+  padding-bottom: 80px;
 }
 
 .nav__links {
   list-style: none;
   margin-right: 80px;
   margin-top: 30px;
+  padding-left: 0px;
   display: flex;
   align-items: center;
   column-gap: 20px;
 }
 
 .nav__link {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   color: #000000;
   text-decoration: none;
   font-weight: bold;
@@ -44,26 +51,53 @@
 
 .header__title {
   max-width: 729px;
-  margin-left: 80px;
-  margin-top: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  display: flex;
+  flex-direction: column;
 }
 
+.header__title p {
+  margin: 0px;
+}
+
+/* I noticed while using <p> elements that the font size was also automatically
+adjusting the margins, despite having them set to 0px within the span__accent
+class and the header__title class.
+
+I added the class above so it would remove the margin from both classes at once */
+
 .span__accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
 }
 
 .header__content {
+  margin-left: 80px;
 }
 
 .header__description {
   max-width: 683px;
-  margin-left: 80px;
   margin-top: 28px;
+  margin-bottom: 0px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
   width: 646px;
   height: 568px;
-  position: absolute;
+  position: fixed;
   top: 124px;
   right: 5px;
 }
@@ -71,6 +105,12 @@
 .header__footer {
   display: flex;
   flex-direction: column;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
 }
 
 .header__hours-of-operation {
@@ -83,14 +123,17 @@
 
 .header__hours {
   display: block;
+  margin: 0px;
 }
 
 .header__weekdays {
   display: block;
+  margin: 0px;
 }
 
 .header__weekends {
   display: block;
+  margin: 0px;
 }
 
 .header__address {
