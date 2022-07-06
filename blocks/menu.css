@@ -7,19 +7,38 @@
 }
 
 .menu__title {
+  max-width: 780px;
+  align-content: center;
+  margin-top: 100px;
 }
 
 .menu__subtitle {
 }
 
 .menu__list {
+  display: flex;
 }
 
 .card {
+  border: 1px solid red;
+  max-width: 600px;
+  display: flex;
 }
 
 .card__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.card__content {
 }
 
 .list__item {
+}
+
+.list__item_divider {
+  margin-top: 16px;
 }
