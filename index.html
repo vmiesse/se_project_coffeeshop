@@ -20,6 +20,7 @@
          element just incase. (Followed brief's File Structure (Step1))-->
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./blocks/header.css" />
+    <link rel="stylesheet" href="./blocks/menu.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,7 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap"
       rel="stylesheet"
     />
-    <!---to do: set fallback fonts-->
+    <!---to do: set fallback fonts (done)-->
   </head>
   <body>
     <div class="page">
@@ -80,7 +81,39 @@
         </div>
       </header>
       <main class="content">
-        <section class="menu"></section>
+        <section class="menu">
+          <h1 class="menu__title">Menu</h1>
+          <h2 class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </h2>
+
+          <ul class="menu__list">
+            <li class="card">
+              <div class="card__title">Filter</div>
+              <div class="card__content">
+                Regular (12 oz) $1 Large (16 oz) $1.25 XL (20 oz) $1.5
+                Party-size (24 oz, decaf) $1.75 Iced Coffee (16 oz) $1.25
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__title">Espresso</div>
+              <div class="card__content">
+                Macchiato $2.25 Cortado $2.5 Mocha $3 Sunrise in the Bay Area
+                (decaf) $10
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__title">Baked Goods</div>
+              <div class="card__content">
+                Almond Croissant $2 Banana Bread $1.75 Key Lime Pie $3 Blue
+                Velvet Cake $3.75 Web Cookie $2 Fresh Bug’uette $0.25
+              </div>
+            </li>
+          </ul>
+        </section>
         <section class="recipes"></section>
         <section class="reservation"></section>
         <section class="about"></section>

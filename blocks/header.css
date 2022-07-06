@@ -4,7 +4,6 @@
   max-height: 800px;
   background-color: #fff;
   background-image: url("../images/background_header.svg");
-
   position: center;
 }
 
@@ -31,6 +30,8 @@
   align-items: center;
   column-gap: 20px;
 }
+
+/* to do: check on making a font.css to one time set properties */
 
 .nav__link {
   font-family: "Inter", Arial, sans-serif;
