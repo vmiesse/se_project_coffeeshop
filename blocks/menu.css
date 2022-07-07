@@ -6,13 +6,19 @@
   background-size: cover;
 }
 
+.menu__titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
 .menu__title {
-  max-width: 780px;
-  align-content: center;
   margin-top: 100px;
 }
 
 .menu__subtitle {
+  margin-top: 24px;
 }
 
 .menu__list {
@@ -26,19 +32,17 @@
 }
 
 .card__title {
-  margin: 0;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 700;
-  align-items: center;
+  margin-bottom: 16px;
 }
+
+/*hmmm */
 
 .card__content {
 }
 
 .list__item {
+  margin-top: 16px;
 }
 
 .list__item_divider {
-  margin-top: 16px;
 }
