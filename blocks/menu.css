@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
 }
 
 .menu__title {
@@ -25,6 +26,7 @@
 
 .menu__subtitle {
   margin-top: 24px;
+  margin-bottom: 0px;
   border: 1px solid red;
   font-family: Noto Serif;
   font-style: normal;
@@ -38,16 +40,35 @@
 .menu__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
   border: 1px solid red;
   max-width: 600px;
   display: flex;
+  flex-direction: column;
+  flex-basis: 1000px;
+  margin-top: 100px;
+}
+
+.card__filter {
+  flex-grow: 1;
+}
+
+.card__espresso {
+  margin-left: 100px;
+  flex-grow: 1;
+}
+
+.card__baked_goods {
+  margin-top: 100px;
+  flex-grow: 1;
 }
 
 .card__title {
-  margin-bottom: 16px;
+  margin-bottom: 32px;
+  margin-top: 0px;
   color: #fff;
   font-family: Inter;
   font-style: normal;
