@@ -9,20 +9,35 @@
 .menu__titles {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0px;
+  align-items: center;
 }
 
 .menu__title {
-  margin-top: 100px;
+  border: 1px solid red;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  max-width: 780px;
 }
 
 .menu__subtitle {
   margin-top: 24px;
+  border: 1px solid red;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  max-width: 780px;
 }
 
 .menu__list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -33,11 +48,24 @@
 
 .card__title {
   margin-bottom: 16px;
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /*hmmm */
 
 .card__content {
+  list-style: none;
+  color: #fff;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .list__item {
