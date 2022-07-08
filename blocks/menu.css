@@ -9,25 +9,23 @@
 .menu__titles {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 100px;
+  align-items: center;
 }
 
 .menu__title {
-  border: 1px solid red;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   color: #fff;
-  max-width: 780px;
+  margin-top: 100px;
 }
 
 .menu__subtitle {
   margin-top: 24px;
   margin-bottom: 0px;
-  border: 1px solid red;
   font-family: Noto Serif;
   font-style: normal;
   font-weight: normal;
@@ -35,6 +33,7 @@
   line-height: 30px;
   color: #fff;
   max-width: 780px;
+  text-align: center;
 }
 
 .menu__list {
@@ -53,17 +52,12 @@
 }
 
 .card__filter {
-  flex-grow: 1;
 }
 
 .card__espresso {
-  margin-left: 100px;
-  flex-grow: 1;
 }
 
 .card__baked_goods {
-  margin-top: 100px;
-  flex-grow: 1;
 }
 
 .card__title {
