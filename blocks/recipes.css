@@ -1,0 +1,25 @@
+.recipes {
+  background-color: #fff;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.recipes__titles {
+}
+
+.recipes__title {
+}
+
+.recipes__subtitle {
+}
+
+.recipes__videos {
+}
+
+.recipes__iframe {
+}
+
+.video__caption {
+}
