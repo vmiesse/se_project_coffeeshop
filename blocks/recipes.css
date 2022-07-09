@@ -32,25 +32,34 @@
 
 .recipes__videos {
   display: flex;
-  position: center;
-  flex-wrap: wrap;
+  justify-content: center;
   padding: 80px 0px 215px 0px;
+  gap: 40px;
 }
 
 .recipes__iframe {
   border: none;
 }
 
+.recipes__iframe_aeropress {
+  padding-left: 40px;
+}
+
 .video__captions {
-  display: flex;
 }
 
 .video__caption {
-  display: flex;
-  flex-grow: 1;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  display: flex;
+  max-width: 480px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.video__caption_divider {
+  flex-grow: 1;
 }
