@@ -22,10 +22,10 @@
 }
 
 .form {
-  display: flex;
-  justify-content: center;
-  max-width: 385px;
 }
 
 .form__fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
