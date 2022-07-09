@@ -226,7 +226,30 @@
           </div>
         </section>
 
-        <section class="reservation" id="#Book-a-table"></section>
+        <section class="reservation" id="Book-a-table">
+          <h1 class="reservation__title">Book a table</h1>
+
+          <div class="reservation__form">
+            <form class="form">
+              <fieldset class="form__fieldset">
+                <label for="surname">Name*</label>
+                <input type="text" id="surname" />
+
+                <label for="guests">Number of guests*</label>
+                <input type="number" id="guests" min="1" max="8" />
+
+                <label for="date">Date & time*</label>
+                <input type="datetime-local" id="date" />
+
+                <label for="email">Your email*</label>
+                <input type="email" id="email" />
+              </fieldset>
+              <button type="submit">Book a table</button>
+              <input type="checkbox" />
+              <label for="checkbox">I agree with the terms of use</label>
+            </form>
+          </div>
+        </section>
         <section class="about" id="Contacts"></section>
       </main>
       <footer class="footer"></footer>
