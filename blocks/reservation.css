@@ -7,9 +7,24 @@
 }
 
 .reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding: 100px 0px 80px 0px;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.reservation__form {
 }
 
 .form {
+  display: flex;
+  justify-content: center;
+  max-width: 385px;
 }
 
 .form__fieldset {
