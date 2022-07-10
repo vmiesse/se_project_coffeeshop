@@ -232,31 +232,52 @@
           <div class="reservation__form">
             <form class="form">
               <fieldset class="form__fieldset">
-                <label for="surname">Name*</label>
-                <input type="text" id="surname" placeholder="Name Surname" />
+                <label for="surname" class="reservation__label_title"
+                  >Name*</label
+                >
+                <input
+                  type="text"
+                  id="surname"
+                  placeholder="Name Surname"
+                  required
+                  class="reservation__input_title"
+                />
 
-                <label for="guests">Number of guests*</label>
+                <label for="guests" class="reservation__label_title"
+                  >Number of guests*</label
+                >
                 <input
                   type="number"
                   id="guests"
                   min="1"
                   max="8"
                   placeholder="1-8"
+                  required
                 />
 
-                <label for="date">Date & time*</label>
+                <label for="date" class="reservation__label_title"
+                  >Date & time*</label
+                >
                 <input
                   type="datetime-local"
                   id="date"
                   placeholder="mm/dd/yyyy --:-- --"
+                  required
                 />
 
-                <label for="email">Your email*</label>
-                <input type="email" id="email" placeholder="email@email.com" />
+                <label for="email" class="reservation__label_title"
+                  >Your email*</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="email@email.com"
+                  required
+                />
+                <button type="submit">Book a table</button>
+                <input type="checkbox" />
+                <label for="checkbox">I agree with the terms of use</label>
               </fieldset>
-              <button type="submit">Book a table</button>
-              <input type="checkbox" />
-              <label for="checkbox">I agree with the terms of use</label>
             </form>
           </div>
         </section>
