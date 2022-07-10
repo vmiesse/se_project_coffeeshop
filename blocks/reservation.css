@@ -25,7 +25,7 @@
 
 .form {
   border: 1px solid red;
-  max-width: 385px;
+  padding-bottom: 120px;
 }
 
 .form__fieldset {
@@ -44,23 +44,27 @@ input {
   font-size: 20px;
   line-height: 30px;
   color: #838383;
-  max-width: 385px;
   height: 60px;
+  width: 100%;
 }
 
 .reservation__label_title {
   padding-bottom: 8px;
+  align-content: flex-start;
 }
 
-button {
+.form__button {
   border-radius: 4px;
   margin-top: 32px;
   margin-bottom: 32px;
   height: 60px;
 }
 
-button:hover {
+.form__button:hover {
   opacity: 70%;
   transition-duration: 0.2s;
   transition-timing-function: linear;
+}
+
+.form__checkbox {
 }
