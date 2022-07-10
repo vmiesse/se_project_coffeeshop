@@ -19,6 +19,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .about__title {
